@@ -1,14 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navar from './componets/navavr/navar.js'
+import Accordeon from './componets/cuerpo/cuerpo.js'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>esta es mi aplicacion mano respete</h1>
-        <h2>este es un cambio insignificante</h2>
-      </header>
+      <Navar/>
+      <Accordeon/>
+      
     </div>
   );
 }
