@@ -2,6 +2,7 @@ import './App.css';
 import Navar from './componets/navavr/navar.js'
 import Accordeon from './componets/cuerpo/cuerpo.js'
 import Boton from './componets/botones/botones.js'
+import Carrucel from './componets/carrucel/carrucel.js'
 /* const Header =({course}) => <h1>{course.name}</h1>
 
 
@@ -94,11 +95,24 @@ const App =()=> {
       descrip:"el nuevo color de los pokemones es marron es muy sad aveces no quiero ni asjdbasoudasbo",
     }
   ]
+  const botoncitos =[
+    "javier",
+    "sofia",
+    "estefani",
+    "jems",
+    "maricrus",
+    "rem",
+    "emilia",
+    "kasuma",
+    "aqua",
+    "el nuevo nombre"
+  ]
   return (
     <div className="App">
       <Navar/>
       <Accordeon acordeon={acordeon}/>
       <Boton name={name}/>
+      <Carrucel value={botoncitos}/>
       
     </div>
   );
