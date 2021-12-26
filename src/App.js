@@ -66,8 +66,8 @@ const App =()=> {
     "judio",
     "fernanfloo",
     "cachimbo",
-    "josue",
-    "angie"
+    "jostar",
+    "angelo"
   ]
   const acordeon = [
     {
@@ -87,7 +87,7 @@ const App =()=> {
       descrip:"bob",
     },
     {
-      titulo:"xddddd",
+      titulo:"ejemplo simple",
       descrip:"ejemplo nuevo",
     },
     {
